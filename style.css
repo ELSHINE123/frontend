@@ -1,0 +1,36 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+a {
+    color: blue;
+    cursor: pointer;
+}
+
+a:visited a:focus {
+    color:purple;
+}
+
+a:hover {
+    color:hsl(210, 100%, 56% 0.4);
+}
+
+a:active {
+    color:red;
+}
